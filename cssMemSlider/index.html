@@ -7,5 +7,65 @@
     <link rel="stylesheet" href="style.css" />
     <title>CSS Mem Slider</title>
   </head>
-  <body></body>
+  <body>
+    <main class="main">
+      <section class="slider">
+        <div class="slider-container">
+          <h1 class="slider__title">CSS Mem Slider</h1>
+          <input class="radio" type="radio" name="slider" id="slide1" checked />
+          <input class="radio" type="radio" name="slider" id="slide2" />
+          <input class="radio" type="radio" name="slider" id="slide3" />
+          <input class="radio" type="radio" name="slider" id="slide4" />
+
+          <div class="slides">
+            <div class="slides__container">
+              <img class="slides__img" src="./assets/img1.jpg" alt="mem" />
+              <img class="slides__img" src="./assets/img2.jpg" alt="mem" />
+              <img class="slides__img" src="./assets/img3.jpg" alt="mem" />
+              <img class="slides__img" src="./assets/img4.jpg" alt="mem" />
+            </div>
+          </div>
+
+          <div class="content">
+            <div class="description">
+              <div class="description__container">
+                <p class="description__text">slide 1</p>
+                <p class="description__text">slide 2</p>
+                <p class="description__text">slide 3</p>
+                <p class="description__text">slide 4</p>
+              </div>
+            </div>
+
+            <div class="controls">
+              <label for="slide1">
+                <span class="controls__item"></span>
+              </label>
+              <label for="slide2">
+                <span class="controls__item"></span>
+              </label>
+              <label for="slide3">
+                <span class="controls__item"></span>
+              </label>
+              <label for="slide4">
+                <span class="controls__item"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <a class="footer__link" href="https://rs.school/" target="_blank">
+        The Rolling Scopes School</a
+      >
+      <a
+        class="footer__link"
+        href="https://github.com/kislajasja"
+        target="_blank"
+      >
+        My GitHub
+      </a>
+      <p class="footer__text">© 2022</p>
+    </footer>
+  </body>
 </html>
