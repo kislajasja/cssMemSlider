@@ -10,10 +10,6 @@ body {
   font-size: 1.5rem;
 }
 
-.main {
-  margin: 0 1rem;
-}
-
 .slider {
   max-width: 45rem;
   width: 100%;
@@ -154,4 +150,22 @@ input[type="radio"] {
 #slide4:checked ~ .slides .slides__container,
 #slide4:checked ~ .content .description__container {
   margin-left: -300%;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 1.2rem;
+  }
+
+  .main {
+    margin: 0 2rem;
+  }
+
+  .content {
+    flex-direction: column-reverse;
+  }
+
+  .description {
+    width: 100%;
+  }
 }
