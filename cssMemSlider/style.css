@@ -82,7 +82,7 @@ input[type="radio"] {
 }
 
 .controls label {
-  padding: 10px;
+  padding: 0.6rem;
   cursor: pointer;
 }
 
@@ -93,7 +93,6 @@ input[type="radio"] {
   border-radius: 50%;
   background-color: #e6e6e6;
   opacity: 0.7;
-
   transition: all 0.3s;
 }
 
